@@ -1,0 +1,37 @@
+{
+  "build": "py36h926163e_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libgfortran >=3.0.1,<4.0.0.a0",
+    "libopenblas >=0.3.3,<1.0a0",
+    "numpy-base 1.17.0 py36ha711998_0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/linhta/opt/anaconda3/pkgs/numpy-1.17.0-py36h926163e_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.17.0-py36h926163e_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/linhta/opt/anaconda3/pkgs/numpy-1.17.0-py36h926163e_0",
+    "type": 1
+  },
+  "md5": "7e7ef9f5a155e139ed24ed64c3924a73",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/linhta/opt/anaconda3/pkgs/numpy-1.17.0-py36h926163e_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy",
+  "sha256": "8d6d7ff28e53c8d2eedfed5eb4eefdc054c8bf0212bdb5f0501eb63a5c7db493",
+  "size": 24475,
+  "subdir": "osx-64",
+  "timestamp": 1566410188600,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/osx-64/numpy-1.17.0-py36h926163e_0.tar.bz2",
+  "version": "1.17.0"
+}

@@ -1,0 +1,14 @@
+prefix=/Users/linhta/Documents/genome/imageseg/envs
+exec_prefix=/Users/linhta/Documents/genome/imageseg/envs
+libdir=/Users/linhta/Documents/genome/imageseg/envs/lib
+includedir=/Users/linhta/Documents/genome/imageseg/envs/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/linhta/Documents/genome/imageseg/envs/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
