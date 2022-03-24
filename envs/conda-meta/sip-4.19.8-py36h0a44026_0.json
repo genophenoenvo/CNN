@@ -1,0 +1,103 @@
+{
+  "build": "py36h0a44026_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/Users/linhta/opt/anaconda3/pkgs/sip-4.19.8-py36h0a44026_0",
+  "features": "",
+  "files": [
+    "bin/sip",
+    "include/python3.6m/sip.h",
+    "lib/python3.6/site-packages/__pycache__/sipconfig.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.pyc",
+    "lib/python3.6/site-packages/sip.pyi",
+    "lib/python3.6/site-packages/sip.so",
+    "lib/python3.6/site-packages/sipconfig.py",
+    "lib/python3.6/site-packages/sipdistutils.py"
+  ],
+  "fn": "sip-4.19.8-py36h0a44026_0.conda",
+  "legacy_bz2_md5": "7f7c63cf2417ae1211f686d7796f7c7f",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "/Users/linhta/opt/anaconda3/pkgs/sip-4.19.8-py36h0a44026_0",
+    "type": 1
+  },
+  "md5": "cbc0f0792fa5e27502d0bffdff8ba6f7",
+  "name": "sip",
+  "package_tarball_full_path": "/Users/linhta/opt/anaconda3/pkgs/sip-4.19.8-py36h0a44026_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sip",
+        "path_type": "hardlink",
+        "sha256": "c5a9bcb850280de6aa1567d3c9bbdf8ccfdeec07408381a071cc69a0dd6fae72",
+        "sha256_in_prefix": "c5a9bcb850280de6aa1567d3c9bbdf8ccfdeec07408381a071cc69a0dd6fae72",
+        "size_in_bytes": 338332
+      },
+      {
+        "_path": "include/python3.6m/sip.h",
+        "path_type": "hardlink",
+        "sha256": "0d73a1c6915e49d80928bba0365e195743a7f9ba9b20c1ce5fcad80cd7af713f",
+        "sha256_in_prefix": "0d73a1c6915e49d80928bba0365e195743a7f9ba9b20c1ce5fcad80cd7af713f",
+        "size_in_bytes": 66973
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/sipconfig.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "49fbcea953b9e4d4a83a3b0f42b540f1ccf4b37d79a585c2a978e07bcbc44dd0",
+        "sha256_in_prefix": "49fbcea953b9e4d4a83a3b0f42b540f1ccf4b37d79a585c2a978e07bcbc44dd0",
+        "size_in_bytes": 62881
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae486fc3c84b3b8a1a3ef632dedbd374ff1ac3d21fae0beb8aec1398e200657f",
+        "sha256_in_prefix": "ae486fc3c84b3b8a1a3ef632dedbd374ff1ac3d21fae0beb8aec1398e200657f",
+        "size_in_bytes": 5120
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "sha256_in_prefix": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sip.so",
+        "path_type": "hardlink",
+        "sha256": "9ac8450d8715880e43b3a8a42c60e87c505b806a4259550dcd11f23da547a769",
+        "sha256_in_prefix": "9ac8450d8715880e43b3a8a42c60e87c505b806a4259550dcd11f23da547a769",
+        "size_in_bytes": 121456
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sipconfig.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "6f42a57432d4e1083ecd6e9d0865ac02151037dd4216cd742b65b7c689d3da68",
+        "sha256_in_prefix": "700bd84e24f2e78c998270617ac13d638f8fa533160332bc6b6bac42cc3c78d1",
+        "size_in_bytes": 96746
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sipdistutils.py",
+        "path_type": "hardlink",
+        "sha256": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "sha256_in_prefix": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "size_in_bytes": 6041
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "01dd7817952d4413c1c3ece468a61fcabe72b8ff77d4f63df18845a9198f17d3",
+  "size": 243947,
+  "subdir": "osx-64",
+  "timestamp": 1521809136586,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/sip-4.19.8-py36h0a44026_0.conda",
+  "version": "4.19.8"
+}
