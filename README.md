@@ -42,10 +42,10 @@ Everytime you want to run the notebook in the environment we set up, just click 
 #### Install Package
 
 We need to install many package, run
-    ```conda install numpy
-    conda install pandas
-    conda install matplotlib
-    conda install scipy
-    conda install scikit-image
-    pip install -U scikit-learn
-    pip install opencv-python```
+    ```conda install numpy```
+    ```conda install pandas```
+    ```conda install matplotlib```
+    ```conda install scipy```
+    ```conda install scikit-image```
+    ```pip install -U scikit-learn```
+    ```pip install opencv-python```
