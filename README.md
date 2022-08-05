@@ -17,35 +17,35 @@ Regardless of how you run the program, the scripts contained in this repository 
 #### Make a new env in the current folder (optional)
 
 Navigate to the folder containing the code, type
-    conda create -p ./env python=3.7
+    ```conda create -p ./env python=3.7```
 
 It will create a Conda environment named env in the current folder. 
 
 Then anytime you want to use that environment, you can head into the folder and run
-    conda activate ./env
+    ```conda activate ./env```
     
 To deactivate the environment, type
-    conda deactivate
+    ```conda deactivate```
     
 Then we should attach that environment to the Jupyter Notebook. 
 
 We will do it by installing ipykernel, type
-    pip3 install --user ipykernel
+    ```pip3 install --user ipykernel```
     OR
-    python3 -m pip install virtualenv
+    ```python3 -m pip install virtualenv```
     
 Then to attach the environment to Jupyter Notebook, run
-    python3 -m ipykernel install --user --name=env
+    ```python3 -m ipykernel install --user --name=env```
     
 Everytime you want to run the notebook in the environment we set up, just click Kernel->Change Kernel-> Kernel Name
     
 #### Install Package
 
 We need to install many package, run
-    conda install numpy
+    ```conda install numpy
     conda install pandas
     conda install matplotlib
     conda install scipy
     conda install scikit-image
     pip install -U scikit-learn
-    pip install opencv-python
+    pip install opencv-python```
