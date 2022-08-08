@@ -1,3 +1,4 @@
 # Suppress .docx and .jpeg
 docs/
 data_out/
+scripts/.ipynb_checkpoints
