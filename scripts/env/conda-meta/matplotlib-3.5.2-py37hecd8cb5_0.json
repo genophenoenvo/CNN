@@ -1,0 +1,37 @@
+{
+  "build": "py37hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.5.2,<3.5.3.0a0",
+    "python >=3.7,<3.8.0a0",
+    "tornado"
+  ],
+  "extracted_package_dir": "/Users/linhta/opt/anaconda3/pkgs/matplotlib-3.5.2-py37hecd8cb5_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.5.2-py37hecd8cb5_0.conda",
+  "legacy_bz2_md5": "0a14ed36f2d3719a95199775d13da0b5",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/linhta/opt/anaconda3/pkgs/matplotlib-3.5.2-py37hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "03034df4dd440544fe04342b94137481",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/linhta/opt/anaconda3/pkgs/matplotlib-3.5.2-py37hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "343351fe14c40daafa0bdbf868420807cda93ea50855695a8770a15dc469a8d4",
+  "size": 7452,
+  "subdir": "osx-64",
+  "timestamp": 1660168438734,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/matplotlib-3.5.2-py37hecd8cb5_0.conda",
+  "version": "3.5.2"
+}

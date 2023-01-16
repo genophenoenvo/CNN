@@ -1,0 +1,164 @@
+{
+  "build": "hb1e8313_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0"
+  ],
+  "extracted_package_dir": "/Users/linhta/opt/anaconda3/pkgs/libzopfli-1.0.3-hb1e8313_0",
+  "features": "",
+  "files": [
+    "bin/zopfli",
+    "bin/zopflipng",
+    "include/zopfli/gzip_container.h",
+    "include/zopfli/zlib_container.h",
+    "include/zopfli/zopfli.h",
+    "include/zopfli/zopflipng_lib.h",
+    "lib/cmake/Zopfli/ZopfliConfig-release.cmake",
+    "lib/cmake/Zopfli/ZopfliConfig.cmake",
+    "lib/cmake/Zopfli/ZopfliConfigVersion.cmake",
+    "lib/libzopfli.1.0.3.dylib",
+    "lib/libzopfli.1.dylib",
+    "lib/libzopfli.dylib",
+    "lib/libzopflipng.1.0.3.dylib",
+    "lib/libzopflipng.1.dylib",
+    "lib/libzopflipng.dylib"
+  ],
+  "fn": "libzopfli-1.0.3-hb1e8313_0.conda",
+  "legacy_bz2_md5": "2dffb55c068fb1561d870b5543b7966e",
+  "legacy_bz2_size": 162388,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/linhta/opt/anaconda3/pkgs/libzopfli-1.0.3-hb1e8313_0",
+    "type": 1
+  },
+  "md5": "59a6ea05350711fe0566aba5c51653d2",
+  "name": "libzopfli",
+  "package_tarball_full_path": "/Users/linhta/opt/anaconda3/pkgs/libzopfli-1.0.3-hb1e8313_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/zopfli",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/15ce9d67-eb22-4040-5b24-a48b848e9c54/volume/libzopfli_1593197699708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "96a06275378defe624def9b7520046162a355aeb9ec14bec8bd9ae88fcd39b4e",
+        "sha256_in_prefix": "6f9931c708a2ac7cc480cae1b4d2f5673ffcee3e24612f77459d11e7bdb47651",
+        "size_in_bytes": 13524
+      },
+      {
+        "_path": "bin/zopflipng",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/15ce9d67-eb22-4040-5b24-a48b848e9c54/volume/libzopfli_1593197699708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ac898ebc75ea2edfcd88dbad97ac51e41173f9a714ef4f6831cfa01078ab71ac",
+        "sha256_in_prefix": "d18df05133cfc07236bd934f8cfb08dbb2f66e77e4e31d4a731af347ff13d9d1",
+        "size_in_bytes": 35564
+      },
+      {
+        "_path": "include/zopfli/gzip_container.h",
+        "path_type": "hardlink",
+        "sha256": "8d687a588f5638965e4881802a30a547601b32ea7cb686218afbfb25ef1f0f42",
+        "sha256_in_prefix": "8d687a588f5638965e4881802a30a547601b32ea7cb686218afbfb25ef1f0f42",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "include/zopfli/zlib_container.h",
+        "path_type": "hardlink",
+        "sha256": "7744d8afea2acca76c8e9f823c4f8df3c7545ec8c9fbe0ea14b67d35f5f7c52f",
+        "sha256_in_prefix": "7744d8afea2acca76c8e9f823c4f8df3c7545ec8c9fbe0ea14b67d35f5f7c52f",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "include/zopfli/zopfli.h",
+        "path_type": "hardlink",
+        "sha256": "9cff9d2ed11be71b8bc82aed0afd2ed47391609c138ae2bb3dc18730e62ddcb1",
+        "sha256_in_prefix": "9cff9d2ed11be71b8bc82aed0afd2ed47391609c138ae2bb3dc18730e62ddcb1",
+        "size_in_bytes": 2536
+      },
+      {
+        "_path": "include/zopfli/zopflipng_lib.h",
+        "path_type": "hardlink",
+        "sha256": "458020a6b3889d650bce2d38966144fbab928199097388815eb4398a9fc949ba",
+        "sha256_in_prefix": "458020a6b3889d650bce2d38966144fbab928199097388815eb4398a9fc949ba",
+        "size_in_bytes": 3458
+      },
+      {
+        "_path": "lib/cmake/Zopfli/ZopfliConfig-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "1930531b1e82bd1644c04eb562a72b22af79accfaa7d32a31f1925dc63986e1c",
+        "sha256_in_prefix": "1930531b1e82bd1644c04eb562a72b22af79accfaa7d32a31f1925dc63986e1c",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "lib/cmake/Zopfli/ZopfliConfig.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7262c675ccb2a3e5865c0fc737dda666f337646c73bd23b20af43df190eb910e",
+        "sha256_in_prefix": "8fcfa55bb1c7fe34a78782b5f56ae1229f37b7afc5a69c03a2f08c1e66c3d91c",
+        "size_in_bytes": 3742
+      },
+      {
+        "_path": "lib/cmake/Zopfli/ZopfliConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "1386e8fc893087b7ef732b085507439ab4916fdfe8bc0d68102905f459505117",
+        "sha256_in_prefix": "1386e8fc893087b7ef732b085507439ab4916fdfe8bc0d68102905f459505117",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "lib/libzopfli.1.0.3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/15ce9d67-eb22-4040-5b24-a48b848e9c54/volume/libzopfli_1593197699708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "0f1bae4084bcaf0bf7f75a39dc160851caaedc23048211411464e26e00ca5e86",
+        "sha256_in_prefix": "2f3861c1f56682f5bef6afb28eed1f454e1d3cc7c104eeb6cf144106ffa5ff6b",
+        "size_in_bytes": 73760
+      },
+      {
+        "_path": "lib/libzopfli.1.dylib",
+        "path_type": "softlink",
+        "sha256": "0f1bae4084bcaf0bf7f75a39dc160851caaedc23048211411464e26e00ca5e86",
+        "size_in_bytes": 73760
+      },
+      {
+        "_path": "lib/libzopfli.dylib",
+        "path_type": "softlink",
+        "sha256": "0f1bae4084bcaf0bf7f75a39dc160851caaedc23048211411464e26e00ca5e86",
+        "size_in_bytes": 73760
+      },
+      {
+        "_path": "lib/libzopflipng.1.0.3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/15ce9d67-eb22-4040-5b24-a48b848e9c54/volume/libzopfli_1593197699708/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "26c58cf5e3b6a1d8075c619ec6061139b15d459229840862e32033eb5471cb3e",
+        "sha256_in_prefix": "6110463ebfab91d2feb6f2b508a59fee01eb5e7307bb8690e309af8b3e5f52e0",
+        "size_in_bytes": 247616
+      },
+      {
+        "_path": "lib/libzopflipng.1.dylib",
+        "path_type": "softlink",
+        "sha256": "26c58cf5e3b6a1d8075c619ec6061139b15d459229840862e32033eb5471cb3e",
+        "size_in_bytes": 247616
+      },
+      {
+        "_path": "lib/libzopflipng.dylib",
+        "path_type": "softlink",
+        "sha256": "26c58cf5e3b6a1d8075c619ec6061139b15d459229840862e32033eb5471cb3e",
+        "size_in_bytes": 247616
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "455de701c10d6dcf6362ffd61a3737ae714718744eacb56821037564d11dd9f5",
+  "size": 152011,
+  "subdir": "osx-64",
+  "timestamp": 1593197747824,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libzopfli-1.0.3-hb1e8313_0.conda",
+  "version": "1.0.3"
+}
