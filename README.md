@@ -49,3 +49,4 @@ We need to install many package, run
     ```conda install scikit-image```
     ```pip install -U scikit-learn```
     ```pip install opencv-python```
+    ```conda install jupyter notebook`
