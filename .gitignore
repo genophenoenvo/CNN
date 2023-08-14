@@ -1,8 +1,10 @@
 # Suppress .docx and .jpeg
 docs/
-data_out/
+data_out/*
 data_raw/
 scripts/env
 scripts/.ipynb_checkpoints
 env/
 .ipynb_checkpoints/
+
+!data_out/foggy/
