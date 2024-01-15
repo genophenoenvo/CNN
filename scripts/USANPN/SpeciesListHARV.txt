@@ -1,0 +1,28 @@
+species_id	scientific_name	common_name
+60	Acer pensylvanicum L.	striped maple
+3	Acer rubrum L.	red maple
+61	Acer saccharum Marshall	sugar maple
+97	Betula alleghaniensis Britton	yellow birch
+99	Betula papyrifera Marshall	paper birch
+724	Castanea dentata (Marshall)	American chestnut
+79	Fagus grandifolia Ehrh.	American beech
+74	Fraxinus americana L.	white ash
+76	Hamamelis virginiana L.	American witch-hazel
+897	Ilex verticillata (L.) A. Gray	winterberry
+904	Kalmia latifolia	mountain-laurel
+9999	Larix decidua Mill.	European larch
+941	Nyssa sylvatica Marshall	 black tupelo
+949	Ostrya virginiana (Mill.) K. Koch	ironwood
+9999	Picea abies (L.) Karst.	Norway spruce
+47	Picea glauca (Moench) Voss	white spruce
+48	Picea mariana (Mill.) Britton	black spruce
+49	Pinus resinosa Aiton	red pine
+53	Pinus strobus L.	eastern white pine
+1188	Populus grandidentata Michx.	bigtooth aspen
+28	Prunus serotina Ehrh.	black cherry
+100	Quercus alba L.	white oak
+102	Quercus rubra L.	northern red oak
+1159	Quercus velutina Lam.	black oak
+56	Tsuga canadensis	eastern hemlock
+94	Vaccinium corymbosum L.	highbush blueberry
+95	Viburnum lantanoides Michx.	hobblebush

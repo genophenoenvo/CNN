@@ -1,0 +1,56 @@
+---
+title: "Retrieve NPN robservation Notebook"
+output: html_notebook
+---
+This notebook will creat a tab delimited file of observation stored in the USA-NPN database
+It uses the list of species read from a file. The initial set of species came from the Report on species present at the NEON sites HARV and BART.
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+
+# Read in a file with a list of species for which you want records from the USA NPN
+
+```{r}
+library("rnpn")
+# read the species file. Three columns with headers
+# column 1 is the species_id from NPN, Column 2 is the scientific name, column 3 is the 
+# common name
+SpeciesFileName = "SpeciesListHARV.txt"
+#SpeciesFileName = "SpeciesListBART.txt"
+
+SpeciesofInterest <- read.table(
+  SpeciesFileName,
+  sep="\t", header=TRUE)
+species_id_char <- as.character(SpeciesofInterest$species_id)
+# can get a stations list with npn_stations() or npn_stations('AZ')
+# 2.53810 -72.17261 HARV_083.phenology.phe - phenocam 35876 77
+# 42.54278 -72.17213 HARV_053.phenology.phe - primary 35875 77
+site_id_list = c('35875', '35876')
+
+#years_of_interest = c('2017','2018','2019','2022','2023')
+years_of_interest = c('2017')
+additional_fields = c('min_first_yes_doy', 'max_first_yes_doy',
+                      'min_last_yes_doy','max_last_yes_doy')
+#Download all species data for 
+
+
+npn_download_site_phenometrics(
+  request_source="P. Bryan Heidorn, Univsersity of Arizona, iSchool",
+  years=years_of_interest,
+  species_id=species_id_char,
+  station_id=site_id_list,
+  num_days_quality_filter = "14",
+  additional_fields =
+  download_path="HARVsiteData2017.csv"
+)
+```
+```{r}
+stations <- npn_stations()
+```
+
+
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
